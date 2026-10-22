@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Skill Invocation Gallery",
+    "description": "A skill gallery under Automation in the left sidebar that lists fixed-workflow project skills as cards and launches one in a new session."
+  }
+}
