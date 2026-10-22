@@ -1,0 +1,13 @@
+# Submission for awesome-dsh-plugin (the data source behind dsh-market)
+#
+# Where it goes: data/plugins/<github-user>__dsh-skill-gallery.yml
+#   (double underscore between owner and repo, exactly as other files in that folder)
+# Prerequisite: https://github.com/<github-user>/dsh-skill-gallery must be public
+#   and carry the "dsh-plugin" topic.
+
+url: https://github.com/<github-user>/dsh-skill-gallery
+name: <github-user>/dsh-skill-gallery
+category: skill
+description:
+  en: 'Skill gallery panel under Automation in the DSH sidebar: every fixed-workflow project skill becomes a card (supervision notice reply, daily work report, Office to PDF, ...); one click opens a new session with /skill-name and the task instruction already in the composer.'
+  zh: 'DSH 左侧栏「自动化任务」下方的 skill 可视化调用面板：把固定流程的项目技能（监理通知回复单、工作日报、Office 转 PDF……）列成卡片，一键新建会话并把 /技能名 与任务指令预填进输入框。'
