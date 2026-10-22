@@ -6,7 +6,7 @@ dsh-market 的插件列表来自公开仓库 [`awesome-dsh-plugin/awesome-dsh-pl
 
 ## 前置条件（缺一不可）
 
-1. 插件已推到**公开** GitHub 仓库，例如 `https://github.com/你的用户名/dsh-skill-gallery`。
+1. 插件已推到**公开** GitHub 仓库，例如 `https://github.com/azliar/dsh-skill-gallery`（已建好）。
 2. 该仓库加了 `dsh-plugin` topic（仓库首页 → 右侧 About 齿轮 → Topics）。
 3. 仓库根目录就是这个包（`package.json` + `client.js` + `cordis.patch.yml` 在位）——本目录上一级已经满足。
 
@@ -17,12 +17,12 @@ dsh-market 的插件列表来自公开仓库 [`awesome-dsh-plugin/awesome-dsh-pl
 git clone https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
 cd awesome-dsh-plugin
 
-# 2. 放入本目录的 YAML，文件名 = <用户名>__<仓库名>.yml
-cp /path/to/dsh-skill-gallery.yml data/plugins/<用户名>__dsh-skill-gallery.yml
+# 2. 放入本目录的 YAML，文件名 = azliar__dsh-skill-gallery.yml
+cp /path/to/azliar__dsh-skill-gallery.yml data/plugins/azliar__dsh-skill-gallery.yml
 
 # 3. 新分支 + 提交 + push
 git checkout -b add-dsh-skill-gallery
-git add data/plugins/<用户名>__dsh-skill-gallery.yml
+git add data/plugins/azliar__dsh-skill-gallery.yml
 git commit -m "Add dsh-skill-gallery"
 git push -u origin add-dsh-skill-gallery
 ```
@@ -32,12 +32,12 @@ git push -u origin add-dsh-skill-gallery
 ## 提交后
 
 - 合并后站点与 `plugins.json` 会自动重新生成，dsh-market 的搜索里就能搜到；
-- 安装命令会变成 `dsh plugin --profile web add github:<用户名>/dsh-skill-gallery`；
+- 安装命令会变成 `dsh plugin --profile web add github:azliar/dsh-skill-gallery`；
 - 若之后也发到 npm，条目会自动带上 npm 版本与下载量。
 
 ## 已准备好的文件
 
 | 文件 | 用途 |
 |---|---|
-| `dsh-skill-gallery.yml` | 要拷进 `data/plugins/` 的 YAML（把 `<github-user>` 换成实际用户名） |
+| `azliar__dsh-skill-gallery.yml` | 要拷进 `data/plugins/` 的 YAML（已填好 `azliar`） |
 | `PR.md` | PR 标题 / 正文 / 自查清单 |
